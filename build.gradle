@@ -1,0 +1,26 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = 'media.MediaCapture'
+
+repositories { 
+    mavenCentral() 
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+    implementation "joda-time:joda-time:2.2"
+    testImplementation "junit:junit:4.12"
+}
+
+// tag::jar[]
+jar {
+    archiveBaseName = 'MediaCapture'
+    archiveVersion =  '0.1.0'
+    manifest{
+        attributes["Main-Class"] = "media.MediaCapture"
+    }
+}
+// end::jar[]

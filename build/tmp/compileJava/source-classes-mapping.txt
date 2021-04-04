@@ -1,0 +1,16 @@
+media/capture/AudioWriter.java
+ media.capture.AudioWriter
+media/capture/AudioInjector.java
+ media.capture.AudioInjector
+media/frame/CCMediaFrame.java
+ media.frame.CCMediaFrame
+media/data/RTPGen.java
+ media.data.RTPGen
+media/capture/SortBuffer.java
+ media.capture.SortBuffer
+media/capture/FrameCollector.java
+ media.capture.FrameCollector
+media/capture/AudioFormatter.java
+ media.capture.AudioFormatter
+media/MediaCapture.java
+ media.MediaCapture
